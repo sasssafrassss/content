@@ -19,7 +19,9 @@ browser-compat: api.RTCRtcpParameters
 
 {{DefaultAPISidebar("WebRTC")}}
 
-The **`RTCRtcpParameters`** dictionary provides parameters of an {{Glossary("RTCP")}} connection. It's used as the value of the {{domxref("RTCRtpParameters.rtcp", "rtcp")}} property of the [parameters](/en-US/docs/Web/API/RTCRtpParameters) of an {{domxref("RTCRtpSender")}} or {{domxref("RTCRtpReceiver")}}.
+The **`RTCRtcpParameters`** dictionary provides parameters of an {{Glossary("RTCP")}} connection.
+
+It's used as the value of `rtcp` in the object returned from {{domxref("RTCRtpSender.getParameters()")}} and {{domxref("RTCRtpReceiver.getParameters()")}}) (and passed as a parameter in {{domxref("RTCRtpSender.setParameters()")}}).
 
 ## Instance properties
 
