@@ -151,7 +151,7 @@ document.querySelectorAll("button.toggle").forEach((button) => {
 
 #### Result
 
-{{ EmbedLiveSample('Using hidden to manually manage visibility') }}
+{{ EmbedLiveSample('Using hidden to manually manage visibility', "100%", 160)}}
 
 ## Specifications
 
